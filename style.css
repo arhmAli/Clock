@@ -1,0 +1,97 @@
+*{
+font-size: 10px;
+}
+body{
+    background-color: rgb(57, 112, 112);
+    font-family: 'Crimson Text', serif;
+font-family: 'Roboto', sans-serif;
+}
+#top{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("backGround.jpg");
+    background-size: cover;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+
+    
+}
+#top span{
+    background: rgba(121, 180, 215, 0.8);
+    opacity: 0.8;
+    border-radius: 10%;
+}
+.hourDiv{
+position:absolute;
+margin: 20% 20%;
+color: whitesmoke;
+display: flex;
+}
+#timeHour{
+    margin-left: 40%;
+    font-size: 6.3rem;
+    font-style: bold;
+    text-decoration: solid;
+}
+.textHour{
+    display: flex;
+    position: absolute;
+    margin: 170% 0%;
+    font-size: 6.3rem;
+    font-style: bold;
+    text-decoration: solid;
+}
+.minDiv{
+    position:absolute;
+margin: 20% 40%;
+    color: whitesmoke;
+    display: flex;
+}
+#timeMin{
+
+    margin-left:50%;
+    font-size: 6.3rem;
+    font-style: bold;
+    text-decoration: solid;
+}
+.textMin{
+    position: absolute;
+    margin: 170% 30%;
+    display:flex;
+    font-size: 6.3rem;
+    font-style: bold;
+    text-decoration: solid;
+}
+.secDiv{
+    
+    position:absolute;
+margin: 20% 60%;
+color: whitesmoke;
+    display: inline-block;
+}
+#timeSec{
+    margin-left: 20%;
+    font-size: 6.3rem;
+    font-style: bold;
+    text-decoration: solid;
+}
+.textSec{
+    position: absolute;
+    margin: 60% 30%;
+    display:flex;
+    font-size: 6.3rem;
+    font-style: bold;
+    text-decoration: solid;
+    
+}
+#textampm{
+    position: absolute;
+    display: flex;
+    margin: 29% 70%;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 6.3rem;
+    font-style: bold;
+    text-decoration: solid;
+}
+
